@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PASTELERIA</title>
+</head>
+<body>
+	<div class="contenedor">
+		<header class="cabecera">
+			<div class="logo">
+				<center>
+				<video autoplay muted loop
+					width="100%" height="100">
+					<source src="videos/animacion.mp4" type="video/mp4"></video>
+</center>
+			</div>
+			<div class="banner">
+
+<img src="imagenes/banner.jpg"> 
+			</div>
+		</header>
+		<nav class="menu">
+			            <div class="hamburguesa" id="hamburguesa">
+                <span class="barra"></span>
+                <span class="barra"></span>
+                <span class="barra"></span>
+              
+        </div>
+        <ul class="menulista" id="menulista">
+               <li class="menuitem"><a href="index.html"class="menulink"><p class="menu">INICIO</p></a></li>
+                 <li class="menuitem"><a href="html/catalogo.html"class="menulink">CATALOGO DE SABORES</a></li>
+                  <li class="menuitem"><a href="html/sucursales.html"class="menulink">SUCURSALES</a></li>
+                   <li class="menuitem"><a href="html/personalizados.html"class="menulink">PASTELES PERZONALIZADOS</a></li>
+                    <li class="menuitem"><a href="html/testimonios.html"class="menulink">TESTIMONIO Y RESEÑA</a></li>
+
+</ul>
+
+		</nav>
+		<main class="principal">
+			<p class="bienvenida">
+		
+			<strong>"Bienvenidos a Dulce Tentación, la pastelería donde cada bocado es un momento especial. Descubre nuestros pasteles artesanales, postres únicos y creaciones hechas con amor. ¡Endulza tu día con nosotros!".
+
+			Nos especializamos en tortas personalizadas para cumpleaños, bodas y celebraciones, diseñadas contigo desde cero para que el resultado sea exactamente lo que imaginas. Además preparamos brownies fudgy, alfajores rellenos, cheesecakes y mesas dulces completas para eventos, todo hecho a mano y con el mismo cuidado que si fuera para nuestra familia.	</strong>
+		</p>
+			<section class="seccion1">
+				
+			<img src="imagenes/pasteles.jpg" alt="Pastel de chocolate" width="800" height="600">
+
+			</section>
+			<div class="seccion2">
+<div class="imagen"> 
+	<img src="imagenes/pastel.jpeg">
+	<i><p>"Ven por una pausa dulce. Nuestra colección de postres está diseñada para darte esa felicidad que mereces en tu día a día."</p>	</i>
+</div>
+<div class="texto"> 
+	<ul>
+	<p> <center> <b> <li>Aquí, cada receta cuenta una historia que comenzó hace generaciones. Creemos que lo dulce no nace solamente del conocimiento, sino del talento y la pasión que ponemos en cada mezcla. Nuestra mayor satisfacción es verte disfrutar de un producto fresco, honesto y hecho totalmente a mano."</li>
+	<li>"Nuestros pasteles personalizados son la estrella de cada fiesta. Diseñamos sabores y decoraciones únicas para cumpleaños, bodas y cualquier ocasión especial."
+	Aquí no congelamos ni usamos mezclas industriales. Creemos que la diferencia se nota en el primer bocado, y por eso cuidamos cada detalle desde la receta hasta la entrega. Horneamos con paciencia, decoramos con cariño y entregamos puntual para que tú solo te preocupes de disfrutar.</li></p></b></center>
+</p>
+</ul>
+</div>
+
+		
+		</main>
+			
+        
+        <footer class="pie">
+      <center> Como contactarnos:
+
+    <div class="footer-container">
+    <p>© 2026 Pastelería Gojo´s</p>
+
+    <p>Calle Principal #123, Santiago Comaltepec, Oaxaca, México</p>
+  <p>Tel: (555) 123-4567 | WhatsApp: (555) 987-6543</p>
+  <p>Email: contacto@pasteleriagojo´s.com</p>
+</div>
+</center>
+
+        </footer>
+</div>
+ 
+<script>
+    const hamburguesa = document.getElementById("hamburguesa");
+    const menulista = document.getElementById("menulista");
+    hamburguesa.addEventListener("click",() =>{
+        hamburguesa.classList.toggle("active");
+        menulista.classList.toggle("active");
+        });
+   </script>
+</body>
+</html>
+
